@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>prompt("메시지","디폴트 입력값")</title>
+</head>
+<body>
+
+
+<script>
+   var ret=prompt("이름을 입력하세요","성시언");
+   if(ret==null){ 
+           document.write("취소되었습니다"); 
+   }
+   else if(ret==""){
+    document.write("이름을 입력해주세요");
+   }
+   else {
+          document.write(ret);
+   }
+</script>    
+</body>    
+</html>
